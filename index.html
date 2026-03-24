@@ -3,67 +3,96 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Luce di Mare - Casa Vacanze Olbia</title>
+<title>Luce di Mare - Olbia</title>
+
+<!-- FONT ELEGANTE -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
 <style>
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background: #f4f6f8;
-    color: #333;
+    background: #f8f6f2;
+    color: #3a3a3a;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
-    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
+    background: #f3efe7;
     padding: 80px 20px;
+    text-align: center;
 }
 
 header h1 {
+    font-family: 'Playfair Display', serif;
     font-size: 48px;
     margin: 0;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 header p {
-    font-size: 20px;
+    font-size: 18px;
+    color: #7a766f;
+    margin-top: 10px;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
-    padding: 20px;
+    padding: 30px 20px;
 }
 
 .card {
     background: white;
-    padding: 25px;
-    margin: 20px 0;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.04);
 }
 
-h2 {
-    color: #2c3e50;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 48%;
+    border-radius: 14px;
 }
 
 .button {
     display: inline-block;
-    padding: 12px 20px;
-    background: #25D366;
+    padding: 14px 24px;
+    background: #d2bfa3;
     color: white;
     text-decoration: none;
-    border-radius: 8px;
-    margin-top: 10px;
+    border-radius: 12px;
+    margin-top: 15px;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
-footer {
+.button:hover {
+    background: #c3ad8e;
+}
+
+.cta {
     text-align: center;
-    padding: 20px;
-    background: #2c3e50;
-    color: white;
+    margin: 40px 0;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+ul {
+    padding-left: 18px;
+}
+
+p {
+    line-height: 1.6;
 }
 </style>
 </head>
@@ -71,76 +100,147 @@ footer {
 <body>
 
 <header>
-    <h1>Luce di Mare</h1>
-    <p>Casa vacanze a Olbia – relax a due passi dal mare</p>
+<h1>Luce di Mare</h1>
+<p>Eleganza, luce e relax nel cuore di Olbia</p>
 </header>
 
 <div class="container">
 
-    <div class="card">
-        <h2>🏡 Descrizione</h2>
-        <p>
-        Benvenuti a <strong>Luce di Mare</strong>, un accogliente appartamento situato a Olbia, in Via De Filippi 39A.  
-        Ideale per famiglie, coppie o piccoli gruppi, offre comfort, spazio e tranquillità per una vacanza perfetta in Sardegna.
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>🛏️ La casa</h2>
-        <p>
-        L'appartamento è composto da:
-        </p>
-        <ul>
-            <li>1 camera da letto con letto matrimoniale</li>
-            <li>Grande salone con divano letto (2 posti)</li>
-            <li>Cucina abitabile completamente attrezzata</li>
-            <li>Bagno</li>
-        </ul>
-        <p>
-        L’intera casa viene affittata ad uso esclusivo come casa vacanze.
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>✨ Servizi</h2>
-        <ul>
-            <li>Wi-Fi</li>
-            <li>Aria condizionata</li>
-            <li>TV</li>
-            <li>Cucina attrezzata</li>
-            <li>Spazi ampi e luminosi</li>
-        </ul>
-    </div>
-
-    <div class="card">
-        <h2>📍 Posizione</h2>
-        <p>
-        Situato a Olbia, in posizione comoda per raggiungere il mare, il centro città e i principali servizi.
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>💰 Prezzi</h2>
-        <p>
-        Contattaci per disponibilità e prezzi. Offerte personalizzate in base alla stagione.
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>📞 Contatti</h2>
-        <p>
-        WhatsApp: <strong>INSERISCI NUMERO</strong><br>
-        Email: <strong>INSERISCI EMAIL</strong>
-        </p>
-
-        <a class="button" href="https://wa.me/">Contattaci su WhatsApp</a>
-    </div>
-
+<div class="cta">
+<a class="button" href="https://wa.me/393921922466">📲 Prenota ora</a>
 </div>
 
-<footer>
-    <p>© Luce di Mare - Casa Vacanze Olbia</p>
-</footer>
+<div class="card">
+<h2>🏡 Benvenuti</h2>
+<p>
+Benvenuti a <strong>Luce di Mare</strong>, un appartamento elegante e accogliente pensato per offrirti un soggiorno rilassante e autentico in Sardegna.
+
+Spazi luminosi e curati nei dettagli, perfetti per famiglie, coppie o piccoli gruppi fino a 4 ospiti.
+</p>
+
+<hr>
+
+<h2>🇬🇧 Welcome</h2>
+<p>
+Welcome to <strong>Luce di Mare</strong>, a refined and cozy apartment designed for a relaxing stay in Sardinia.
+
+Perfect for families, couples or small groups up to 4 guests.
+</p>
+</div>
+
+<div class="card">
+<h2>🛋️ Salone</h2>
+<div class="gallery">
+<img src="salone1.jpeg">
+<img src="salone2.jpeg">
+<img src="salone3.jpeg">
+<img src="salone4.jpeg">
+</div>
+</div>
+
+<div class="card">
+<h2>🛏️ Camera</h2>
+<div class="gallery">
+<img src="camera1.jpeg">
+<img src="camera2.jpeg">
+<img src="camera3.jpeg">
+<img src="camera4.jpeg">
+</div>
+</div>
+
+<div class="card">
+<h2>🍳 Cucina</h2>
+<div class="gallery">
+<img src="cucina1.jpeg">
+<img src="cucina2.jpeg">
+<img src="cucina3.jpeg">
+<img src="cucina4.jpeg">
+</div>
+</div>
+
+<div class="card">
+<h2>🚿 Bagno</h2>
+<div class="gallery">
+<img src="bagno1.jpeg">
+<img src="bagno2.jpeg">
+<img src="bagno3.jpeg">
+<img src="bagno4.jpeg">
+</div>
+</div>
+
+<div class="card">
+<h2>🌅 Esterno</h2>
+<div class="gallery">
+<img src="esterno1.jpeg">
+</div>
+</div>
+
+<div class="card">
+<h2>📍 Posizione</h2>
+
+<p>📍 Via De Filippi 39A, Olbia</p>
+
+<a href="https://www.google.com/maps?q=Via+De+Filippi+39A,+Olbia" target="_blank">
+👉 Apri su Google Maps
+</a>
+
+<br><br>
+
+<iframe 
+src="https://maps.google.com/maps?q=Via%20De%20Filippi%2039A%20Olbia&t=&z=16&ie=UTF8&iwloc=&output=embed"
+width="100%" height="300" style="border:0; border-radius:14px;">
+</iframe>
+</div>
+
+<div class="card">
+<h2>🔗 Prenota il tuo soggiorno</h2>
+
+<a class="button" href="https://wa.me/393921922466" target="_blank">
+📲 Prenota direttamente (miglior prezzo)
+</a>
+
+<br><br>
+
+<a class="button" href="https://www.airbnb.it/rooms/1215868763169861795?guests=1&adults=1&s=67&unique_share_id=2e48a18b-1ae7-4760-8f94-1da772b25a1d" target="_blank">
+🏡 Airbnb
+</a>
+
+<br><br>
+
+<a class="button" href="https://www.booking.com/Share-GkB9lq" target="_blank">
+🏨 Booking
+</a>
+
+<p style="margin-top:15px; font-size:14px; color:#777;">
+Prenotando direttamente ottieni il miglior prezzo.
+</p>
+</div>
+
+<div class="card">
+<h2>📝 Check-in e pagamento</h2>
+
+<ul>
+<li>Invio documento di identità</li>
+<li>Versamento caparra</li>
+<li>Pagamento tassa di soggiorno</li>
+</ul>
+
+<p>Accettiamo Revolut, bonifico bancario e PayPal.</p>
+
+<a class="button" href="https://wa.me/393921922466" target="_blank">
+📲 Completa check-in su WhatsApp
+</a>
+</div>
+
+<div class="card">
+<h2>📞 Contatti</h2>
+<p>
+📱 <a href="https://wa.me/393921922466">392 192 2466</a><br>
+📧 <a href="mailto:lucedimareolbia@gmail.com">lucedimareolbia@gmail.com</a>
+</p>
+</div>
+
+</div>
 
 </body>
 </html>
